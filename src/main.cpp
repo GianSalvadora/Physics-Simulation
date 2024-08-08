@@ -10,6 +10,7 @@ class Ball {
 private:
     sf::CircleShape shape;
     sf::Vector2f velocity;
+    sf::Color color;
 
     std::default_random_engine gen;
     std::uniform_real_distribution<> dist;
